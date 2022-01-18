@@ -1,5 +1,7 @@
 # theme-switch
 ## 一个基于 CSS var 的在线实时换肤方案
+## demo 传送门：[https://hounaoshao.github.io/theme-switch/](https://hounaoshao.github.io/theme-switch/)
+
 方案的原理是基于 CSS var 实现色值的切换，在具体实现时需要分层，如图：
 
 <div align="center"><img src="./img/分层图.png"></div>
