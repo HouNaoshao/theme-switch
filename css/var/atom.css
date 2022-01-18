@@ -1,0 +1,55 @@
+/**
+ * 原子层 CSS var（色值取于 Naive UI）
+ */
+
+:root {
+	/* 白色 */
+	--white-1: #ffffff;
+	--white-2: #f5f7fa;
+	--white-3: rgba(255, 255, 255, 0.9);
+	--white-4: rgba(255, 255, 255, 0.82);
+	--white-5: rgba(255, 255, 255, 0.24);
+	--white-6: rgba(255, 255, 255, 0.09);
+
+	/* 黑色 */
+	--black-1: #000000;
+	--black-2: rgb(31, 34, 37);
+	--black-3: rgb(51, 54, 57);
+	--black-4: rgb(224, 224, 230);
+	--black-5: rgb(24, 24, 28);
+	--black-6: rgb(16, 16, 20);
+
+	/* 红色 */
+	--red-1: #d03050;
+	--red-2: #de576d;
+	--red-3: #ab1f3f;
+	--red-4: #e88080;
+	--red-5: #e98b8b;
+	--red-6: #e57272;
+
+	/* 黄色 */
+	--yellow-1: #f0a020;
+	--yellow-2: #fcb040;
+	--yellow-3: #c97c10;
+	--yellow-4: #f2c97d;
+	--yellow-5: #f5d599;
+	--yellow-6: #e6c260;
+
+	/* 绿色 */
+	--green-1: #18a058;
+	--green-2: #36ad6a;
+	--green-3: #0c7a43;
+	--green-4: #63e2b7;
+	--green-5: #7fe7c4;
+	--green-6: #5acea7;
+
+	/*** font-size ***/
+	--font-size-1: 12px;
+	--font-size-2: 14px;
+	--font-size-3: 16px;
+	--font-size-4: 18px;
+
+	/*** border-radius ***/
+	--border-radius-1: 2px;
+	--border-radius-2: 4px;
+}

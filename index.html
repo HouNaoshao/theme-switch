@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>一个基于 CSS var 的在线实时换肤方案</title>
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/theme/dark.css">
+</head>
+<body class="flex-middle flex-column gap-50">
+	<header>
+		<h1 class="title text-align-center">一个基于 CSS var 的在线实时换肤方案</h1>
+	</header>
+
+	<main class="flex-middle flex-column gap-30">
+		<!-- 切换按钮 -->
+		<div>
+			<div class="flex align-item-center gap-5">
+				<input type="radio" id="light" class="radio" name="theme" value="light" checked>
+				<label for="light" class="cursor-pointer">白天</label>
+
+				<input type="radio" id="dark" class="radio" name="theme" value="dark">
+				<label for="dark" class="cursor-pointer">黑夜</label>
+			</div>
+		</div>
+
+		<!-- 表单 -->
+		<div class="card flex flex-column gap-20">
+			<div class="flex gap-10">
+				<label class="flex-0-0-auto">姓名</label>
+				<input type="text" id="input" class="input flex-1-0-0%" placeholder="请输入姓名">
+			</div>
+			<div class="flex gap-10">
+				<label class="flex-0-0-auto">性别</label>
+				<div class="flex-1-0-0%">
+					<div class="flex align-item-center gap-5">
+						<input type="radio" id="male" class="radio" name="sex" value="male" checked>
+						<label for="male" class="cursor-pointer">男</label>
+					</div>
+					<div class="flex align-item-center gap-5">
+						<input type="radio" id="female" class="radio" name="sex" value="female" >
+						<label for="female" class="cursor-pointer">女</label>
+					</div>
+				</div>
+			</div>
+			<div class="flex gap-10">
+				<label class="flex-0-0-auto">爱好</label>
+				<div class="flex-1-0-0%">
+					<div class="flex align-item-center gap-5">
+						<input type="checkbox" id="sing" class="checkbox" value="sing" >
+						<label for="male" class="cursor-pointer">唱</label>
+					</div>
+					<div class="flex align-item-center gap-5">
+						<input type="checkbox" id="dance" class="checkbox" value="dance" >
+						<label for="dance" class="cursor-pointer">跳</label>
+					</div>
+					<div class="flex align-item-center gap-5">
+						<input type="checkbox" id="rap" class="checkbox" value="rap" >
+						<label for="rap" class="cursor-pointer">Rap</label>
+					</div>
+				</div>
+			</div>
+			<div class="text-align-center">
+				<p id="submit-tip" class="display-none"></p>
+				<div class="flex-middle gap-10">
+					<button id="success-submit" class="btn btn-primary">正确提交</button>
+					<button id="failed-submit" class="btn btn-danger">错误提交</button>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+/**
+* 组件 class
+*/
+
+/* title */
+.title {
+	color: var(--text-color);
+	font-size: var(--font-size-large);
+	transition: color 0.15s;
+}
+
+/* card */
+.card {
+	padding: 20px;
+	background-color: var(--card-bg-color);
+	border-radius: var(--border-radius-default);
+	border: 1px solid var(--border-color);
+	transition: background-color 0.15s, border-color 0.15s;
+}
+
+/* btn */
+.btn {
+	padding: 0 5px;
+	font-size: var(--font-size-small);
+	line-height: 24px;
+	border: none;
+	border-radius: var(--border-radius-default);
+	cursor: pointer;
+	transition: color 0.15s, background-color 0.15s;
+}
+.btn-primary {
+	color: var(--btn-color);
+	background-color: var(--btn-primary-bg-color);
+}
+.btn-primary:hover {
+	background-color: var(--btn-primary-hover-bg-color);
+}
+.btn-primary:active {
+	background-color: var(--btn-primary-active-bg-color);
+}
+.btn-danger {
+	color: var(--btn-color);
+	background-color: var(--btn-danger-bg-color);
+}
+.btn-danger:hover {
+	background-color: var(--btn-danger-hover-bg-color);
+}
+.btn-danger:active {
+	background-color: var(--btn-danger-active-bg-color);
+}
+
+/* input */
+.input {
+	font-size: var(--font-size-small);
+	color: var(--text-color);
+	background-color: transparent;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--border-color);
+	border-radius: var(--border-radius-default);
+	outline-width: 1px;
+	outline-color: var(--outline-color);
+	transition: color 0.15s, border-color 0.15s, outline-color 0.15s;
+}
+.input:hover {
+	border-color: var(--border-hover-color);
+}
+
+/* radio */
+.radio {
+	appearance: none;
+	width: 14px;
+	height: 14px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--border-color);
+	border-radius: 50%;
+	cursor: pointer;
+	transition: border-color 0.15s;
+}
+.radio:hover {
+	border-color: var(--border-hover-color);
+}
+.radio:checked {
+	border-width: 5px;
+	border-color: var(--border-active-color);
+}
+
+/* checkbox */
+.checkbox {
+	appearance: none;
+	width: 14px;
+	height: 14px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--border-color);
+	border-radius: var(--border-radius-default);
+	cursor: pointer;
+	transition: border-color 0.15s;
+}
+.checkbox:hover {
+	border-color: var(--border-hover-color);
+}
+.checkbox:checked {
+	border-width: 5px;
+	border-color: var(--border-active-color);
+}

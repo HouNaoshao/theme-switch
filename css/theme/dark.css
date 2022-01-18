@@ -1,0 +1,36 @@
+/**
+ * 黑夜主题
+ */
+
+:root[data-theme="dark"] {
+	/*** common ***/
+	--primary-color: var(--green-4);
+	--primary-hover-color: var(--green-5);
+	--primary-active-color: var(--green-6);
+	--success-color: var(--green-4);
+	--error-color: var(--red-4);
+	--warn-color: var(--yellow-4);
+
+	/*** color ***/
+	/* text */
+	--title-color: var(--white-3);
+	--text-color: var(--white-4);
+
+	/* btn */
+	--btn-color: var(--black-1);
+
+	/*** bg-color ***/
+	/* body */
+	--body-bg-color: var(--black-6);
+
+	/* card */
+	--card-bg-color: var(--black-5);
+
+	/* btn */
+	--btn-danger-bg-color: var(--red-4);
+	--btn-danger-hover-bg-color: var(--red-5);
+	--btn-danger-active-bg-color: var(--red-6);
+
+	/*** border-color ***/
+	--border-color: var(--white-6);
+}

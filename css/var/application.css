@@ -1,0 +1,62 @@
+/**
+* 应用层 CSS var
+*/
+
+@import url("./atom.css");
+
+:root {
+	/*** common ***/
+	--primary-color: var(--green-1);
+	--primary-hover-color: var(--green-2);
+	--primary-active-color: var(--green-3);
+	--success-color: var(--green-1);
+	--error-color: var(--red-1);
+	--warn-color: var(--yellow-1);
+
+	/*** color ***/
+	/* text */
+	--title-color: var(--black-2);
+	--text-color: var(--black-3);
+	--text-success-color: var(--success-color);
+	--text-error-color: var(--error-color);
+	--text-warn-color: var(--warn-color);
+
+	/* btn */
+	--btn-color: var(--white-1);
+
+	/*** bg-color ***/
+	/* body */
+	--body-bg-color: var(--white-2);
+
+	/* card */
+	--card-bg-color: var(--white-1);
+
+	/* btn */
+	--btn-primary-bg-color: var(--primary-color);
+	--btn-primary-hover-bg-color: var(--primary-hover-color);
+	--btn-primary-active-bg-color: var(--primary-active-color);
+	--btn-danger-bg-color: var(--red-1);
+	--btn-danger-hover-bg-color: var(--red-2);
+	--btn-danger-active-bg-color: var(--red-3);
+
+	/*** border-color ***/
+	--border-color: var(--black-4);
+	--border-hover-color: var(--primary-hover-color);
+	--border-active-color: var(--primary-active-color);
+	--border-success-color: var(--success-color);
+	--border-error-color: var(--error-color);
+
+	/*** border-radius ***/
+	--border-radius-default: var(--border-radius-2);
+
+	/*** outline-color ***/
+	--outline-color: var(--primary-color);
+	--outline-success-color: var(--success-color);
+	--outline-error-color: var(--error-color);
+
+	/*** font-size ***/
+	--font-size-small: var(--font-size-1);
+	--font-size-default: var(--font-size-2);
+	--font-size-medium: var(--font-size-3);
+	--font-size-large: var(--font-size-4);
+}

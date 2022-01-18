@@ -1,0 +1,82 @@
+@import url("./class/component.css");
+@import url("./class/application.css");
+
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-size: var(--font-size-default);
+	color: var(--text-color);
+	background-color: var(--body-bg-color);
+}
+h1 {
+	margin: 0;
+}
+
+/*** other ***/
+.flex {
+	display: flex;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-0-0-auto {
+	flex: 0 0 auto;
+}
+.flex-1-0-0\% {
+	flex: 1 0 0%;
+}
+.flex-1-0-auto {
+	flex: 1 0 auto;
+}
+
+.gap-5 {
+	gap: 5px;
+}
+.gap-10 {
+	gap: 10px;
+}
+.gap-20 {
+	gap: 20px;
+}
+.gap-30 {
+	gap: 30px;
+}
+.gap-50 {
+	gap: 50px;
+}
+
+.align-item-center {
+	align-items: center;
+}
+
+.text-align-center {
+	text-align: center;
+}
+.text-align-right {
+	text-align: right;
+}
+
+.padding-20 {
+	padding: 20px;
+}
+.padding-40-20 {
+	padding: 40px 20px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.display-none {
+	display: none;
+}
+.display-block {
+	display: block;
+}

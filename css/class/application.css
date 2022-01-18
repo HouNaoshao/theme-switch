@@ -1,0 +1,78 @@
+/**
+* 应用层 class
+*/
+
+@import url("../var/application.css");
+
+/*** color ***/
+/* text */
+.title-color {
+	color: var(--title-color);
+	transition: color 0.15s;
+}
+.text-color {
+	color: var(--text-color);
+	transition: color 0.15s;
+}
+.text-success-color {
+	color: var(--text-success-color);
+}
+.text-error-color {
+	color: var(--text-error-color);
+}
+.text-warn-color {
+	color: var(--text-warn-color);
+}
+
+/*** border-color ***/
+.border-color {
+	border-color: var(--border-color);
+	transition: border-color 0.15s;
+}
+.hover\:border-color:hover {
+	border-color: var(--border-hover-color);
+}
+.active\:border-color:active {
+	border-color: var(--border-active-color);
+}
+.border-success-color,
+.border-success-color:hover,
+.border-success-color:active {
+	border-color: var(--border-success-color);
+}
+.border-error-color,
+.border-error-color:hover,
+.border-error-color:active {
+	border-color: var(--border-error-color);
+}
+
+/*** border-radius ***/
+.border-radius-default {
+	border-radius: var(--border-radius-default);
+}
+
+/*** outline-color ***/
+.outline-color {
+	outline-color: var(--outline-color);
+	transition: outline-color 0.15s;
+}
+.outline-success-color {
+	outline-color: var(--outline-success-color);
+}
+.outline-error-color {
+	outline-color: var(--outline-error-color);
+}
+
+/*** font-size ***/
+.font-size-small {
+	font-size: var(--font-size-small);
+}
+.font-size-default {
+	font-size: var(--font-size-default);
+}
+.font-size-medium {
+	font-size: var(--font-size-medium);
+}
+.font-size-large {
+	font-size: var(--font-size-large);
+}
